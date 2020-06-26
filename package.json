@@ -1,0 +1,24 @@
+{
+  "name": "interval-polling",
+  "version": "1.0.0",
+  "description": "Polling at Regular Interval",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "transpile": "npm run clean && tsc",
+    "test": "node ./dist/test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wchang28/interval-polling.git"
+  },
+  "keywords": [],
+  "author": "Wen Chang",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.0.14",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.5"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "jsx": "react",
+      "sourceMap": true,
+      "declaration": true,
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "downlevelIteration": true,
+      "outDir": "./dist",
+      "watch": false,
+      "lib": [
+        "esnext",
+        "dom",
+        "dom.iterable"
+      ]
+  },
+  "files": [
+    "./src/index.ts",
+    "./src/test/test.ts"
+  ]
+}
